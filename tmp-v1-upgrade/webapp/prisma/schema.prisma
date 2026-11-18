@@ -1,0 +1,237 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "windows"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  username     String   @unique
+  passwordHash String
+  salt         String
+  fullName     String   @default("")
+  role         String   @default("viewer")
+  active       Boolean  @default(true)
+  mustChangePassword Boolean @default(false)
+  failedAttempts     Int     @default(0)
+  lockedUntil        DateTime?
+  isSupervisor       Boolean @default(false)
+  createdAt    DateTime @default(now())
+  sessions     Session[]
+}
+
+model Session {
+  id        Int      @id @default(autoincrement())
+  token     String   @unique
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+  lastSeenAt DateTime?
+  @@index([userId])
+}
+
+model AuditLog {
+  id         Int       @id @default(autoincrement())
+  ts         DateTime  @default(now())
+  username   String?
+  action     String
+  entity     String    @default("")
+  entityId   Int?
+  details    String    @default("")
+  beforeData String    @default("")
+  afterData  String    @default("")
+}
+
+model Company {
+  id          Int      @id @default(autoincrement())
+  name        String
+  fiscalYears FiscalYear[]
+  personnel   Personnel[]
+}
+
+model FiscalYear {
+  id        Int      @id @default(autoincrement())
+  companyId Int
+  company   Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  jy        Int
+  periods   PayrollPeriod[]
+  settings  FySetting[]
+  @@unique([companyId, jy])
+}
+
+model FySetting {
+  id          Int      @id @default(autoincrement())
+  fiscalYearId Int
+  fiscalYear  FiscalYear @relation(fields: [fiscalYearId], references: [id], onDelete: Cascade)
+  key         String
+  value       String
+  @@unique([fiscalYearId, key])
+}
+
+model Personnel {
+  id             Int      @id @default(autoincrement())
+  companyId      Int
+  company        Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  personnelCode  String
+  firstName      String
+  lastName       String
+  status         String   @default("شاغل")
+  department     String   @default("عمومی") // ← ارتقا: مرکز هزینه (پذیرش، خانه‌داری، آشپزخانه، نگهبانی، عمومی)
+  contracts      Contract[]
+  loans          Loan[]
+  advances       Advance[]
+  leaves         Leave[]
+  summaries      PayrollSummary[]
+  shiftAssignments ShiftAssignment[]
+  attendanceDaily AttendanceDaily[]
+}
+
+model Contract {
+  id            Int      @id @default(autoincrement())
+  personnelId   Int
+  personnel     Personnel @relation(fields: [personnelId], references: [id], onDelete: Cascade)
+  contractType  String
+  hourlyRate    Float
+  dailyRate     Float
+  monthlyWage   Float
+  projectAmount Float
+  startDate     String
+  endDate       String?
+  createdAt     DateTime @default(now())
+}
+
+model Loan {
+  id                Int     @id @default(autoincrement())
+  personnelId       Int
+  personnel         Personnel @relation(fields: [personnelId], references: [id], onDelete: Cascade)
+  title             String  @default("وام")
+  totalAmount       Int
+  installment       Int
+  installmentsCount Int     @default(0)
+  paidCount         Int     @default(0)
+  startPeriod       String  @default("")
+  remaining         Int     @default(0)
+  active            Boolean @default(true)
+  notes             String  @default("")
+}
+
+model Advance {
+  id          Int     @id @default(autoincrement())
+  personnelId Int
+  personnel   Personnel @relation(fields: [personnelId], references: [id], onDelete: Cascade)
+  payDate     String  @default("")
+  amount      Int
+  recovered   Boolean @default(false)
+  period      String  @default("")
+  notes       String  @default("")
+  @@index([personnelId])
+}
+
+model Leave {
+  id          Int    @id @default(autoincrement())
+  personnelId Int
+  personnel   Personnel @relation(fields: [personnelId], references: [id], onDelete: Cascade)
+  fromDate    String
+  toDate      String
+  days        Float  @default(0)
+  leaveKind   String @default("استحقاقی")
+  approved    Boolean @default(true)
+  notes       String @default("")
+  @@index([personnelId])
+}
+
+model PayrollPeriod {
+  id           Int      @id @default(autoincrement())
+  fiscalYearId Int
+  fiscalYear   FiscalYear @relation(fields: [fiscalYearId], references: [id], onDelete: Cascade)
+  jy           Int
+  jm           Int
+  status       String   @default("draft") // draft / calculated / approved / paid / locked
+  summaries    PayrollSummary[]
+  @@unique([fiscalYearId, jy, jm])
+}
+
+model PayrollSummary {
+  id              Int     @id @default(autoincrement())
+  periodId        Int
+  period          PayrollPeriod @relation(fields: [periodId], references: [id], onDelete: Cascade)
+  personnelId     Int
+  personnel       Personnel @relation(fields: [personnelId], references: [id], onDelete: Cascade)
+  workedDays      Float   @default(0)
+  leaveDays       Float   @default(0)
+  leaveBalance    Float   @default(0)
+  overtimeMin     Int     @default(0)
+  gross           Int     @default(0)
+  insuredBase     Int     @default(0)
+  workerIns       Int     @default(0)
+  employerIns     Int     @default(0)
+  unemploymentIns Int     @default(0)
+  taxBase         Int     @default(0)
+  tax             Int     @default(0)
+  totalDeductions Int     @default(0)
+  netPay          Int     @default(0)
+  prevBalance     Int     @default(0)
+  payApproved     Boolean @default(true)
+  payPaid         Boolean @default(false)
+  payNote         String  @default("")
+  @@unique([periodId, personnelId])
+  @@index([personnelId])
+}
+
+model Shift {
+  id        Int      @id @default(autoincrement())
+  name      String
+  schedule  String   // JSON: {"0":[480,960],"1":[480,960],...}
+  assignments ShiftAssignment[]
+}
+
+model ShiftAssignment {
+  id          Int      @id @default(autoincrement())
+  personnelId Int
+  personnel   Personnel @relation(fields: [personnelId], references: [id], onDelete: Cascade)
+  shiftId     Int
+  shift       Shift    @relation(fields: [shiftId], references: [id], onDelete: Cascade)
+  jy          Int
+  jm          Int
+  @@unique([personnelId, jy, jm])
+}
+
+model AttendanceMonth {
+  id     Int @id @default(autoincrement())
+  companyId Int
+  jy     Int
+  jm     Int
+  daily  AttendanceDaily[]
+  @@unique([companyId, jy, jm])
+}
+
+model AttendanceDaily {
+  id          Int      @id @default(autoincrement())
+  monthId     Int
+  month       AttendanceMonth @relation(fields: [monthId], references: [id], onDelete: Cascade)
+  personnelId Int
+  personnel   Personnel @relation(fields: [personnelId], references: [id], onDelete: Cascade)
+  day         Int
+  entry1      Int      @default(-1)
+  entry2      Int      @default(-1)
+  entry3      Int      @default(-1)
+  exit1       Int      @default(-1)
+  exit2       Int      @default(-1)
+  exit3       Int      @default(-1)
+  workedMin   Int      @default(0)
+  lateMin     Int      @default(0)
+  earlyMin    Int      @default(0)
+  missingMin  Int      @default(0)
+  leaveMin    Int      @default(0)
+  missionMin  Int      @default(0)
+  overtimeMin Int      @default(0)
+  expectedMin Int      @default(0)
+  status      String   @default("")
+  leaveKind   String   @default("")
+  @@unique([monthId, personnelId, day])
+}

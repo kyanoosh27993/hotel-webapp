@@ -1,0 +1,300 @@
+
+####################################################################################################
+# فایل: دستگاه حضور و غیاب mehr1405
+# شیت‌ها: ['Sheet1', 'Sheet2', 'Sheet3', 'Sheet4', 'Sheet5', 'Sheet6', 'Sheet7', 'Sheet8', 'Sheet9', 'Sheet10', 'Sheet11', 'Sheet12', 'Sheet13', 'Sheet14', 'Sheet15', 'Sheet16', 'Sheet17', 'Sheet18', 'Sheet19', 'Sheet20', 'Sheet21', 'Sheet22', 'Sheet23', 'Sheet24', 'Sheet25', 'Sheet26', 'Sheet27', 'Sheet28', 'Sheet29']
+####################################################################################################
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet1  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
+2  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+3  NaN NaN        NaN        NaN  1405/08/09         NaN         NaN NaN        NaN     NaN NaN NaN  : تاریخ تنظیم    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+4  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+5  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN     : قسمت    NaN NaN                NaN NaN    NaN   
+6  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN  هتل هیلان  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+7  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+8  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+9  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+10 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+11 NaN NaN        NaN        NaN         NaN  1405/07/30         NaN NaN        NaN     NaN NaN NaN      : تاتاریخ    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN  : ازتاریخ    NaN NaN                NaN NaN    NaN   
+12 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+13 NaN NaN      وضعیت        NaN         NaN         NaN  اضافه آزاد NaN  اضافه کار  کسرکار NaN NaN            NaN  تعجیل  تاخیر NaN NaN NaN  مرخصی        NaN  ...  کارکرد  مجموع  خروج3 NaN        NaN  ورود3 NaN                NaN NaN  خروج2   
+14 NaN NaN  بدون شیفت        NaN         NaN         NaN       08:16 NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN   8:15    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+
+                         33  34     35      36     37  38        39  40       41          42  
+0                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+1                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+2                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+3                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+4                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN  : شناسه         NaN  
+5                       132 NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+6                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+7                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+8                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+9                       NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+10                      NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+11  حدیث السادات حسینی نسب  NaN    NaN     NaN    NaN NaN       NaN NaN    : نام         NaN  
+12                      NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+13                      NaN NaN  ورود2   خروج1  ورود1 NaN  روز هفته NaN      NaN       تاریخ  
+14                      NaN NaN    NaN  *15:12  06:57 NaN  چهارشنبه NaN      NaN  1405/07/01  
+
+[15 rows x 43 columns]
+
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet2  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
+2  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+3  NaN NaN        NaN        NaN  1405/08/09         NaN         NaN NaN        NaN     NaN NaN NaN  : تاریخ تنظیم    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+4  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+5  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN     : قسمت    NaN NaN                NaN NaN    NaN   
+6  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN  هتل هیلان  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+7  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+8  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+9  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+10 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+11 NaN NaN        NaN        NaN         NaN  1405/07/30         NaN NaN        NaN     NaN NaN NaN      : تاتاریخ    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN  : ازتاریخ    NaN NaN                NaN NaN    NaN   
+12 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+13 NaN NaN      وضعیت        NaN         NaN         NaN  اضافه آزاد NaN  اضافه کار  کسرکار NaN NaN            NaN  تعجیل  تاخیر NaN NaN NaN  مرخصی        NaN  ...  کارکرد  مجموع  خروج3 NaN        NaN  ورود3 NaN                NaN NaN  خروج2   
+14 NaN NaN  بدون شیفت        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+
+                   33  34     35     36     37  38        39  40       41          42  
+0                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+1                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+2                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+3                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+4                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN  : شناسه         NaN  
+5                 133 NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+6                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+7                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+8                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+9                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+10                NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+11  اقای  ابوالقاسمی  NaN    NaN    NaN    NaN NaN       NaN NaN    : نام         NaN  
+12                NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+13                NaN NaN  ورود2  خروج1  ورود1 NaN  روز هفته NaN      NaN       تاریخ  
+14                NaN NaN    NaN    NaN    NaN NaN  چهارشنبه NaN      NaN  1405/07/01  
+
+[15 rows x 43 columns]
+
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet3  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
+2  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+3  NaN NaN        NaN        NaN  1405/08/09         NaN         NaN NaN        NaN     NaN NaN NaN  : تاریخ تنظیم    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+4  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+5  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN     : قسمت    NaN NaN                NaN NaN    NaN   
+6  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN  هتل هیلان  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+7  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+8  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+9  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+10 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+11 NaN NaN        NaN        NaN         NaN  1405/07/30         NaN NaN        NaN     NaN NaN NaN      : تاتاریخ    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN  : ازتاریخ    NaN NaN                NaN NaN    NaN   
+12 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+13 NaN NaN      وضعیت        NaN         NaN         NaN  اضافه آزاد NaN  اضافه کار  کسرکار NaN NaN            NaN  تعجیل  تاخیر NaN NaN NaN  مرخصی        NaN  ...  کارکرد  مجموع  خروج3 NaN        NaN  ورود3 NaN                NaN NaN  خروج2   
+14 NaN NaN  بدون شیفت        NaN         NaN         NaN       01:59 NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN   1:59    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+
+               33  34     35      36     37  38        39  40       41          42  
+0             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+1             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+2             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+3             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+4             NaN NaN    NaN     NaN    NaN NaN       NaN NaN  : شناسه         NaN  
+5             135 NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+6             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+7             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+8             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+9             NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+10            NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+11  مهرداد پراور  NaN    NaN     NaN    NaN NaN       NaN NaN    : نام         NaN  
+12            NaN NaN    NaN     NaN    NaN NaN       NaN NaN      NaN         NaN  
+13            NaN NaN  ورود2   خروج1  ورود1 NaN  روز هفته NaN      NaN       تاریخ  
+14            NaN NaN    NaN  *10:55  08:56 NaN  چهارشنبه NaN      NaN  1405/07/01  
+
+[15 rows x 43 columns]
+
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet4  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
+2  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+3  NaN NaN        NaN        NaN  1405/08/09         NaN         NaN NaN        NaN     NaN NaN NaN  : تاریخ تنظیم    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+4  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+5  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN     : قسمت    NaN NaN                NaN NaN    NaN   
+6  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN  هتل هیلان  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+7  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+8  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+9  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+10 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+11 NaN NaN        NaN        NaN         NaN  1405/07/30         NaN NaN        NaN     NaN NaN NaN      : تاتاریخ    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN  : ازتاریخ    NaN NaN                NaN NaN    NaN   
+12 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+13 NaN NaN      وضعیت        NaN         NaN         NaN  اضافه آزاد NaN  اضافه کار  کسرکار NaN NaN            NaN  تعجیل  تاخیر NaN NaN NaN  مرخصی        NaN  ...  کارکرد  مجموع  خروج3 NaN        NaN  ورود3 NaN                NaN NaN  خروج2   
+14 NaN NaN  بدون شیفت        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+
+                   33  34     35     36     37  38        39  40       41          42  
+0                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+1                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+2                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+3                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+4                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN  : شناسه         NaN  
+5                 137 NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+6                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+7                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+8                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+9                 NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+10                NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+11  فاطمه  ترقی خواه  NaN    NaN    NaN    NaN NaN       NaN NaN    : نام         NaN  
+12                NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+13                NaN NaN  ورود2  خروج1  ورود1 NaN  روز هفته NaN      NaN       تاریخ  
+14                NaN NaN    NaN    NaN    NaN NaN  چهارشنبه NaN      NaN  1405/07/01  
+
+[15 rows x 43 columns]
+
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet5  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
+2  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+3  NaN NaN        NaN        NaN  1405/08/09         NaN         NaN NaN        NaN     NaN NaN NaN  : تاریخ تنظیم    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+4  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+5  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN     : قسمت    NaN NaN                NaN NaN    NaN   
+6  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN  هتل هیلان  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+7  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+8  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+9  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+10 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+11 NaN NaN        NaN        NaN         NaN  1405/07/30         NaN NaN        NaN     NaN NaN NaN      : تاتاریخ    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN  : ازتاریخ    NaN NaN                NaN NaN    NaN   
+12 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+13 NaN NaN      وضعیت        NaN         NaN         NaN  اضافه آزاد NaN  اضافه کار  کسرکار NaN NaN            NaN  تعجیل  تاخیر NaN NaN NaN  مرخصی        NaN  ...  کارکرد  مجموع  خروج3 NaN        NaN  ورود3 NaN                NaN NaN  خروج2   
+14 NaN NaN  بدون شیفت        NaN         NaN         NaN       08:10 NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN   8:10    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+
+               33  34     35     36     37  38        39  40       41          42  
+0             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+1             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+2             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+3             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+4             NaN NaN    NaN    NaN    NaN NaN       NaN NaN  : شناسه         NaN  
+5             141 NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+6             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+7             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+8             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+9             NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+10            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+11  ساناز  صابری  NaN    NaN    NaN    NaN NaN       NaN NaN    : نام         NaN  
+12            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+13            NaN NaN  ورود2  خروج1  ورود1 NaN  روز هفته NaN      NaN       تاریخ  
+14            NaN NaN    NaN  23:39  15:29 NaN  چهارشنبه NaN      NaN  1405/07/01  
+
+[15 rows x 43 columns]
+
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet6  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
+2  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+3  NaN NaN        NaN        NaN  1405/08/09         NaN         NaN NaN        NaN     NaN NaN NaN  : تاریخ تنظیم    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+4  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+5  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN     : قسمت    NaN NaN                NaN NaN    NaN   
+6  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN  هتل هیلان  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+7  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+8  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+9  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+10 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+11 NaN NaN        NaN        NaN         NaN  1405/07/30         NaN NaN        NaN     NaN NaN NaN      : تاتاریخ    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN  : ازتاریخ    NaN NaN                NaN NaN    NaN   
+12 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+13 NaN NaN      وضعیت        NaN         NaN         NaN  اضافه آزاد NaN  اضافه کار  کسرکار NaN NaN            NaN  تعجیل  تاخیر NaN NaN NaN  مرخصی        NaN  ...  کارکرد  مجموع  خروج3 NaN        NaN  ورود3 NaN                NaN NaN  خروج2   
+14 NaN NaN  بدون شیفت        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+
+                      33  34     35     36     37  38        39  40       41          42  
+0                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+1                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+2                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+3                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+4                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN  : شناسه         NaN  
+5                    144 NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+6                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+7                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+8                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+9                    NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+10                   NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+11  فاطمه  دهشیری پاریزی NaN    NaN    NaN    NaN NaN       NaN NaN    : نام         NaN  
+12                   NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+13                   NaN NaN  ورود2  خروج1  ورود1 NaN  روز هفته NaN      NaN       تاریخ  
+14                   NaN NaN    NaN    NaN    NaN NaN  چهارشنبه NaN      NaN  1405/07/01  
+
+[15 rows x 43 columns]
+
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet7  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
+2  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+3  NaN NaN        NaN        NaN  1405/08/09         NaN         NaN NaN        NaN     NaN NaN NaN  : تاریخ تنظیم    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+4  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+5  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN     : قسمت    NaN NaN                NaN NaN    NaN   
+6  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN  هتل هیلان  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+7  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+8  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+9  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+10 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+11 NaN NaN        NaN        NaN         NaN  1405/07/30         NaN NaN        NaN     NaN NaN NaN      : تاتاریخ    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN  : ازتاریخ    NaN NaN                NaN NaN    NaN   
+12 NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+13 NaN NaN      وضعیت        NaN         NaN         NaN  اضافه آزاد NaN  اضافه کار  کسرکار NaN NaN            NaN  تعجیل  تاخیر NaN NaN NaN  مرخصی        NaN  ...  کارکرد  مجموع  خروج3 NaN        NaN  ورود3 NaN                NaN NaN  خروج2   
+14 NaN NaN  بدون شیفت        NaN         NaN         NaN       09:02 NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    9:2    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+
+              33  34     35     36     37  38        39  40       41          42  
+0            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+1            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+2            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+3            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+4            NaN NaN    NaN    NaN    NaN NaN       NaN NaN  : شناسه         NaN  
+5            146 NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+6            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+7            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+8            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+9            NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+10           NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+11  زهرا  غیاثی  NaN    NaN    NaN    NaN NaN       NaN NaN    : نام         NaN  
+12           NaN NaN    NaN    NaN    NaN NaN       NaN NaN      NaN         NaN  
+13           NaN NaN  ورود2  خروج1  ورود1 NaN  روز هفته NaN      NaN       تاریخ  
+14           NaN NaN    NaN  15:07  06:04 NaN  چهارشنبه NaN      NaN  1405/07/01  
+
+[15 rows x 43 columns]
+
+====================================================================================================
+### فایل/شیت: دستگاه حضور و غیاب mehr1405 :: Sheet8  |  ابعاد: 20 سطر × 43 ستون
+----------------------------------------------------------------------------------------------------
+ستون‌ها: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+----------------------------------------------------------------------------------------------------
+    0   1          2          3           4           5           6   7          8       9   10  11             12     13     14  15  16  17     18         19  ...      23     24     25  26         27     28  29                 30  31     32  \
+0  NaN NaN        NaN        NaN         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN                NaN NaN    NaN   
+1  NaN NaN        NaN  ??? ?????         NaN         NaN         NaN NaN        NaN     NaN NaN NaN            NaN    NaN    NaN NaN NaN NaN    NaN        NaN  ...     NaN    NaN    NaN NaN        NaN    NaN NaN  گزارش روزانه فردی NaN    NaN   
